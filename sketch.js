@@ -43,12 +43,3 @@ function draw() {
 }
 
 
-
-
-
-
-function keyReleased() {
-  if (keyCode === DOWN_ARROW) {
-    cannonBall.shoot()
-  }
-}
